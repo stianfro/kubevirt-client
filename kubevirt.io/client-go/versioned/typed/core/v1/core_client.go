@@ -3,7 +3,7 @@
 package v1
 
 import (
-	"github.com/stianfro/kubevirt-client/client/versioned/scheme"
+	"kubevirt.io/client-go/versioned/scheme"
 	"net/http"
 
 	rest "k8s.io/client-go/rest"

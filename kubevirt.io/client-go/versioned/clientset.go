@@ -4,7 +4,7 @@ package versioned
 
 import (
 	"fmt"
-	kubevirtv1 "github.com/stianfro/kubevirt-client/client/versioned/typed/core/v1"
+	kubevirtv1 "kubevirt.io/client-go/versioned/typed/core/v1"
 	"net/http"
 
 	discovery "k8s.io/client-go/discovery"

@@ -4,7 +4,7 @@ package v1
 
 import (
 	"context"
-	scheme "github.com/stianfro/kubevirt-client/client/versioned/scheme"
+	scheme "kubevirt.io/client-go/versioned/scheme"
 	"time"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

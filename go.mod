@@ -1,4 +1,4 @@
-module kubevirt.io/client-go
+module github.com/stianfro/kubevirt-client
 
 go 1.19
 

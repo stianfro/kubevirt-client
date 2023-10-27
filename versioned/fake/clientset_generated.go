@@ -3,9 +3,9 @@
 package fake
 
 import (
-	clientset "kubevirt.io/client-go/versioned"
-	kubevirtv1 "kubevirt.io/client-go/versioned/typed/core/v1"
-	fakekubevirtv1 "kubevirt.io/client-go/versioned/typed/core/v1/fake"
+	clientset "github.com/stianfro/kubevirt-client/versioned"
+	kubevirtv1 "github.com/stianfro/kubevirt-client/versioned/typed/core/v1"
+	fakekubevirtv1 "github.com/stianfro/kubevirt-client/versioned/typed/core/v1/fake"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

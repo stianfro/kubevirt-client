@@ -5,7 +5,7 @@ go 1.19
 require (
 	k8s.io/apimachinery v0.27.1
 	k8s.io/client-go v0.27.1
-	kubevirt.io/api v1.0.0
+	kubevirt.io/api v1.1.0
 )
 
 require (
